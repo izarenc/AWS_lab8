@@ -13,6 +13,7 @@
 					console.log(err +" - Unable to find credentials in instance metadata. Trying to load config from file " + configFilePath);
 					AWS.config.loadFromPath(configFilePath);								
 				}
+				console.log("AWS starting");
 				start(AWS);
 			});
 		}
