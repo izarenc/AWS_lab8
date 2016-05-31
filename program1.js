@@ -18,7 +18,7 @@
 			});
 		}
 
-
+initAWS(function(){ console.log("credentials loaded")});
 module.exports.initAWS = initAWS;
 
 })()
